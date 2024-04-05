@@ -1,0 +1,80 @@
+img{
+    width: 420px;
+    height: auto;
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 10px;
+   
+   
+}
+
+body{
+    background-color: blue;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.series{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+
+#photo1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#photo2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#photo3{
+    grid-column: 4/5;
+    grid-row: 2/3;
+
+}
+
+#caption1{
+    display: none;
+    font-family: "fira-code", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#caption2{
+    display: none;
+    font-family: "fira-code", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#caption3{
+    display: none;
+    font-family: "fira-code", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.caption-container{
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
